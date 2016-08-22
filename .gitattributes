@@ -1,0 +1,49 @@
+# ---------------
+# binary files
+# ---------------
+# images should be treated as binary
+*.eps     binary
+*.jpg     binary
+*.JPG     binary
+*.jpeg    binary
+*.JPEG    binary
+*.png     binary
+*.PNG     binary
+*.gif     binary
+*.GIF     binary
+*.bmp     binary
+*.BMP     binary
+*.ico     binary
+*.ICO     binary
+*.ppm     binary
+*.pgm     binary
+*.pbm     binary
+*.xpm     -text diff -merge
+
+#---------------
+# Documents
+#---------------
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
+*.md text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
+*.sql text
+
+#----------------
+# Python files
+#----------------
+*.py     text
+*.py3    text
